@@ -6,13 +6,19 @@ AS
   -- Purpose : Stored procedures - ECT feed alarm for TRAC66
 
 PROCEDURE pcg_ect_feed_alarm;
+--This came from feature #1
+--This is the first one we are doing
 
-END PACK_ECT_MONITOR;
+
+
+
+end Pack_ECT)Monitor;
 /
 CREATE OR REPLACE PACKAGE BODY "VRS"."PACK_ECT_MONITOR" 
   -- Author  : TRAC66 / rajus
   -- Created : 01/23/2014
   -- Purpose : ECT feed Alarm procedures for TRAC66
+  -- made an additional change here
 IS
 pLOG_CTX_Default PLOG.LOG_CTX := PLOG.init ( pLEVEL => plog.LERROR );
 
